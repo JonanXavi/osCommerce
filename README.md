@@ -18,7 +18,7 @@ En este proyecto se automatizó los test cases proporcionados por el profesor **
 Clonar el proyecto
 
 ```bash
-  git clone ++++++++
+  git clone https://github.com/JonanXavi/osCommerce.git
 ```
 
 Ir al directorio del proyecto
@@ -42,16 +42,16 @@ Para llevar a cabo los test en modo visual, se debe ejecutar el siguiente comand
 
 Para llevar a cabo los test en modo headless, se debe ejecutar cualquiera de los siguientes comandos
 
-[!CAUTION]
-Se debe tener preinstalado los navegadores chrome y/o firefox para su respectiva ejecución
+> [!CAUTION]
+> Se debe tener preinstalado los navegadores chrome y/o firefox para su respectiva ejecución
 
 ```bash
   npm run headless:chrome
   npm run headless:firefox
 ```
 
-[!IMPORTANT]
-La ejecución de tests en modo headless, permite la grabación de videos de los tests y capturas de pantalla en caso de hallarse errores
+> [!IMPORTANT]
+> La ejecución de tests en modo headless, permite la grabación de videos de los tests y capturas de pantalla en caso de hallarse errores
 
 
 ## Autor
