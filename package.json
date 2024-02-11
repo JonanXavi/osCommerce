@@ -1,0 +1,26 @@
+{
+  "name": "oscommerce_jfernandez",
+  "version": "1.0.0",
+  "description": "Cypress Project - Test Cases",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "headless:chrome": "cypress run --browser  chrome --headless --spec cypress/e2e/purchase.cy.js",
+    "headless:firefox": "cypress run --browser  firefox --headless --spec cypress/e2e/purchase.cy.js"
+  },
+  "keywords": [
+    "javascript",
+    "cypress",
+    "osCommerce",
+    "upc"
+  ],
+  "author": "Jonathan Fernández",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cypress": "^13.6.4"
+  },
+  "dependencies": {
+    "cypress-plugin-steps": "^1.1.1"
+  }
+}
